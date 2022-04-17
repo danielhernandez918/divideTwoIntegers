@@ -15,11 +15,6 @@ dividend1 = 10, divisor1 = 3
 dividend2 = 7, divisor2 = -3
 dividend3 = -2147483648, divisor3 = -1
 var divide = function(dividend, divisor) {
-    // if (dividend > 2**31) {
-    //     let number = (2**31)-1;
-    //     console.log("hi")
-    //     return number
-    // }
     let number = dividend/divisor;
     if (number >= 2**31) {
         number = (2**31)-1;
